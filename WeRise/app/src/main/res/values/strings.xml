@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WeRise</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_splash_start">WeRise</string>
+
+    <string name="string_sign_up_as_impact_investor"><u>Sign up as an Impact Investor*</u></string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_create_account">CreateAccount</string>
+    <string name="next">Next</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_investor">Investor</string>
+</resources>

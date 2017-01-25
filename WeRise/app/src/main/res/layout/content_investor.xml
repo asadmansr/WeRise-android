@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.asadmansoor.werise.Investor"
+    android:background="@color/colorPrimary"
+    tools:showIn="@layout/activity_investor">
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="161dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="54dp"
+        android:id="@+id/pic"
+
+        android:background="@drawable/werise" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        
+        android:background="@drawable/cloud_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="32dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This would not be possible without your help."
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_below="@id/pic"
+        android:id="@+id/title"
+        android:layout_marginTop="48dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We collaborate with many organizations and industry leaders to build sustainable social projects for the community. If you wish to be an Impact Investor, contact us and one of our team members will be glad to assist you. \n\nThank you!"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+
+        android:layout_below="@id/title"
+        android:layout_marginTop="16dp"
+        />
+
+
+</RelativeLayout>

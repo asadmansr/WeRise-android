@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.asadmansoor.werise.Dashboard"
+    tools:showIn="@layout/activity_dashboard">
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        card_view:cardElevation="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/ic_menu_black_24dp" />
+
+            <EditText
+                android:id="@+id/edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:layout_gravity="center"
+                android:maxLines="1"
+                android:textColor="#cccccc"
+                android:textSize="16sp"
+                android:cursorVisible="false"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:hint="Search for project or talent" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_view"
+        android:text="My Projects"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:id="@+id/my_projects_title"
+        />
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_my_project"
+        card_view:cardElevation="2dp"
+        android:layout_marginTop="16dp"
+
+        android:layout_width="match_parent"
+        android:layout_below="@id/my_projects_title"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="57dp"
+                android:layout_height="47dp"
+                android:id="@+id/profileb_pic"
+                android:background="@drawable/peace"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="42dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcoming\nRefugees to Canada"
+                android:gravity="center"
+                android:layout_below="@id/profileb_pic"
+                android:layout_marginLeft="12dp"
+                />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_view_my_project"
+        android:text="Explore Projects"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:id="@+id/explore_title"
+        />
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_explore_project"
+        card_view:cardElevation="2dp"
+        android:layout_marginTop="16dp"
+
+        android:layout_width="match_parent"
+        android:layout_below="@id/explore_title"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="57dp"
+                android:layout_height="47dp"
+                android:id="@+id/profilea_pic"
+                android:background="@drawable/education"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="32dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English\nclasses"
+                android:gravity="center"
+                android:layout_below="@id/profilea_pic"
+                android:layout_marginLeft="32dp"
+                />
+
+            <ImageView
+                android:layout_width="57dp"
+                android:layout_height="47dp"
+                android:id="@+id/profilea_pic2"
+                android:background="@drawable/healthcare"
+                android:layout_toRightOf="@id/profilea_pic"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="32dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Free\ncheckup"
+                android:gravity="center"
+                android:layout_below="@id/profilea_pic2"
+                android:layout_alignLeft="@id/profilea_pic2"
+                android:layout_marginLeft="4dp"
+                />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_view_explore_project"
+        android:text="Trending Talent"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:id="@+id/trending_title"
+        />
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_trending_project"
+        card_view:cardElevation="2dp"
+        android:layout_marginTop="16dp"
+
+        android:layout_width="match_parent"
+        android:layout_below="@id/trending_title"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="57dp"
+                    android:layout_height="47dp"
+                    android:id="@+id/profile_pic"
+                    android:background="@drawable/profile"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="32dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fatima\n(Engineer)"
+                    android:gravity="center"
+                    android:layout_below="@id/profile_pic"
+                    android:layout_marginLeft="32dp"
+                />
+
+            <ImageView
+                android:layout_width="57dp"
+                android:layout_height="47dp"
+                android:id="@+id/profile_pic2"
+                android:background="@drawable/profile"
+                android:layout_toRightOf="@id/profile_pic"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="32dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ahmed\n(Doctor)"
+                android:gravity="center"
+                android:layout_below="@id/profile_pic2"
+                android:layout_alignLeft="@id/profile_pic2"
+                android:layout_marginLeft="4dp"
+                />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
