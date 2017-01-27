@@ -10,8 +10,9 @@ Developed at ILM Innovation Weekend 2017, WeRise connects you and other changema
 
 ## Milestones
 
-- **WeRise 1.0.0** 3c459e295eef7b62d1bc9fa87599e80317cfa5cc:
+- **WeRise 1.0.0**:
 	- Initial commit of the WeRise App developed at the ILM Innovation Weekend 2017. 
+	- Commit id: 3c459e295eef7b62d1bc9fa87599e80317cfa5cc
 
 ## Credit
 
