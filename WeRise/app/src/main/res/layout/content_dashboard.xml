@@ -49,7 +49,7 @@
                 android:cursorVisible="false"
                 android:singleLine="true"
                 android:imeOptions="actionDone"
-                android:hint="Search for project or talent" />
+                android:hint="@string/dashboard_search_hint" />
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
@@ -57,12 +57,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/card_view"
-        android:text="My Projects"
+        android:text="@string/my_projects_title"
         android:textStyle="bold"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="32dp"
-        android:id="@+id/my_projects_title"
-        />
+        android:id="@+id/my_projects_title" />
 
     <android.support.v7.widget.CardView
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
@@ -91,7 +90,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Welcoming\nRefugees to Canada"
+                android:text="@string/temp_my_project"
                 android:gravity="center"
                 android:layout_below="@id/profileb_pic"
                 android:layout_marginLeft="12dp"
@@ -105,7 +104,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/card_view_my_project"
-        android:text="Explore Projects"
+        android:text="@string/explore_projects_title"
         android:textStyle="bold"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="32dp"
@@ -139,7 +138,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="English\nclasses"
+                android:text="@string/temp_explore_project_1"
                 android:gravity="center"
                 android:layout_below="@id/profilea_pic"
                 android:layout_marginLeft="32dp"
@@ -158,7 +157,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Free\ncheckup"
+                android:text="@string/temp_explore_project_2"
                 android:gravity="center"
                 android:layout_below="@id/profilea_pic2"
                 android:layout_alignLeft="@id/profilea_pic2"
@@ -173,7 +172,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/card_view_explore_project"
-        android:text="Trending Talent"
+        android:text="@string/trending_talent_title"
         android:textStyle="bold"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="32dp"
@@ -207,7 +206,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Fatima\n(Engineer)"
+                    android:text="@string/temp_trending_talent_1"
                     android:gravity="center"
                     android:layout_below="@id/profile_pic"
                     android:layout_marginLeft="32dp"
@@ -226,7 +225,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ahmed\n(Doctor)"
+                android:text="@string/temp_trending_talent_2"
                 android:gravity="center"
                 android:layout_below="@id/profile_pic2"
                 android:layout_alignLeft="@id/profile_pic2"

@@ -61,10 +61,10 @@ public class CreateAccount extends AppCompatActivity {
             public void onClick(View view) {
                 if ((a % 2) == 0){
                     education_tv.setBackgroundResource(R.drawable.text_color_background);
-                    education_tv.setTextColor(getResources().getColor(R.color.white));
+                    education_tv.setTextColor(getResources().getColor(R.color.colorWhite));
                 } else {
                     education_tv.setBackgroundResource(R.drawable.text_background);
-                    education_tv.setTextColor(getResources().getColor(R.color.background_color));
+                    education_tv.setTextColor(getResources().getColor(R.color.colorElemSelected));
 
                 }
 
@@ -77,10 +77,10 @@ public class CreateAccount extends AppCompatActivity {
             public void onClick(View view) {
                 if ((b % 2) == 0){
                     healthcare_tv.setBackgroundResource(R.drawable.text_color_background);
-                    healthcare_tv.setTextColor(getResources().getColor(R.color.white));
+                    healthcare_tv.setTextColor(getResources().getColor(R.color.colorWhite));
                 } else {
                     healthcare_tv.setBackgroundResource(R.drawable.text_background);
-                    healthcare_tv.setTextColor(getResources().getColor(R.color.background_color));
+                    healthcare_tv.setTextColor(getResources().getColor(R.color.colorElemSelected));
                 }
                 b++;
             }
@@ -91,10 +91,10 @@ public class CreateAccount extends AppCompatActivity {
             public void onClick(View view) {
                 if ((c % 2) == 0){
                     environment_tv.setBackgroundResource(R.drawable.text_color_background);
-                    environment_tv.setTextColor(getResources().getColor(R.color.white));
+                    environment_tv.setTextColor(getResources().getColor(R.color.colorWhite));
                 } else {
                     environment_tv.setBackgroundResource(R.drawable.text_background);
-                    environment_tv.setTextColor(getResources().getColor(R.color.background_color));
+                    environment_tv.setTextColor(getResources().getColor(R.color.colorElemSelected));
                 }
                 c++;
             }
@@ -105,10 +105,10 @@ public class CreateAccount extends AppCompatActivity {
             public void onClick(View view) {
                 if ((d % 2) == 0){
                     peace_tv.setBackgroundResource(R.drawable.text_color_background);
-                    peace_tv.setTextColor(getResources().getColor(R.color.white));
+                    peace_tv.setTextColor(getResources().getColor(R.color.colorWhite));
                 } else {
                     peace_tv.setBackgroundResource(R.drawable.text_background);
-                    peace_tv.setTextColor(getResources().getColor(R.color.background_color));
+                    peace_tv.setTextColor(getResources().getColor(R.color.colorElemSelected));
                 }
                 d++;
             }

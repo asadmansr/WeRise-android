@@ -1,15 +1,59 @@
 <resources>
     <string name="app_name">WeRise</string>
 
+    <!--Activity Title-->
     <string name="title_activity_splash_screen">SplashScreen</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_splash_start">WeRise</string>
-
-    <string name="string_sign_up_as_impact_investor"><u>Sign up as an Impact Investor*</u></string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_create_account">CreateAccount</string>
-    <string name="next">Next</string>
     <string name="title_activity_dashboard">Dashboard</string>
     <string name="title_activity_investor">Investor</string>
+    <string name="title_activity_edit_project">Edit Project</string>
+
+    <!--SplashScreen and Login-->
+    <string name="WeRise_title">WeRise</string>
+    <string name="string_sign_up_as_impact_investor"><u>Sign up as an Impact Investor*</u></string>
+    <string name="register_btn">REGISTER</string>
+    <string name="already_member_btn">Already a member?</string>
+
+    <!--Impact Investor-->
+    <string name="investor_main_title">This would not be possible without your help.</string>
+    <string name="investor_secondary_title">We collaborate with many organizations and industry leaders to build sustainable social projects for the community. If you wish to be an Impact Investor, contact us and one of our team members will be glad to assist you. \n\nThank you!</string>
+
+    <!--Create an Account-->
+    <string name="name_title">Name</string>
+    <string name="about_me_title">About Me</string>
+    <string name="location_title">Location</string>
+    <string name="causes_title">Causes</string>
+
+    <!--Select Project-->
+    <string name="create_project_title">Create. Organize. Lead.</string>
+    <string name="create_project_btn">CREATE PROJECT</string>
+    <string name="join_project_title">Discover. Collaborate. Learn.</string>
+    <string name="join_project_btn">JOIN PROJECT</string>
+
+    <!--Create Project-->
+    <string name="project_name_title">Project Name</string>
+    <string name="project_desc_title">Project Description</string>
+    <string name="theme_title">Theme</string>
+    <string name="invite_title">Invite</string>
+    <string name="invite_hint">Email address or @username</string>
+    
+    <!--Dashboard-->
+    <string name="my_projects_title">My Projects</string>
+    <string name="explore_projects_title">Explore Projects</string>
+    <string name="trending_talent_title">Trending Talent</string>
+    <string name="temp_my_project">Welcoming\nRefugees to Canada</string>
+    <string name="temp_explore_project_1">English\nclasses</string>
+    <string name="temp_explore_project_2">Free\ncheckup</string>
+    <string name="temp_trending_talent_1">Fatima\n(Engineer)</string>
+    <string name="temp_trending_talent_2">Ahmed\n(Doctor)</string>
+
+    <!--Search Bar-->
+    <string name="dashboard_search_hint">Search for project or talent</string>
+
+    <!--Action Bar-->
+    <string name="action_finish_title">FINISH</string>
+
+
 </resources>

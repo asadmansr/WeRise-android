@@ -21,21 +21,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="WeRise"
+        android:text="@string/WeRise_title"
         android:textColor="@color/colorPrimary"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/werise_logo"
         android:layout_marginTop="36dp"
         android:textSize="24dp"
-        android:textStyle="bold"
-
-        />
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/register_btn"
-        android:text="Register"
+        android:text="@string/register_btn"
         android:textColor="#FFFFFF"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
@@ -46,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/already_member_btn"
-        android:text="Already a member?"
+        android:text="@string/already_member_btn"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="108dp"
         android:layout_alignParentBottom="true"

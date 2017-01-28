@@ -25,13 +25,12 @@
         android:layout_height="wrap_content"
         android:background="@android:drawable/ic_menu_camera"
         android:layout_alignTop="@id/profile_pic"
-        android:layout_alignRight="@+id/profile_pic"
-        />
+        android:layout_alignRight="@+id/profile_pic" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name"
+        android:text="@string/name_title"
         android:textStyle="bold"
         android:id="@+id/name_tv"
         android:layout_below="@id/profile_pic"
@@ -47,9 +46,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="About Me"
+        android:text="@string/about_me_title"
         android:textStyle="bold"
-
         android:id="@+id/title_tv"
         android:layout_below="@id/name_et"
         android:layout_alignParentLeft="true"
@@ -64,9 +62,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Location"
+        android:text="@string/location_title"
         android:textStyle="bold"
-
         android:id="@+id/location_tv"
         android:layout_below="@id/title_et"
         android:layout_alignParentLeft="true"
@@ -81,9 +78,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Causes"
+        android:text="@string/causes_title"
         android:textStyle="bold"
-
         android:id="@+id/Causes_tv"
         android:layout_below="@id/location_et"
         android:layout_alignParentLeft="true"
@@ -93,7 +89,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Education"
-        android:textColor="@color/background_color"
+        android:textColor="@color/colorElemSelected"
         android:id="@+id/education_tv"
         android:layout_below="@id/Causes_tv"
         android:layout_alignParentLeft="true"
@@ -104,8 +100,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Health care"
-        android:textColor="@color/background_color"
-
+        android:textColor="@color/colorElemSelected"
         android:id="@+id/healthcare_tv"
         android:layout_below="@id/Causes_tv"
         android:layout_toRightOf="@id/education_tv"
@@ -117,8 +112,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Environment"
-        android:textColor="@color/background_color"
-
+        android:textColor="@color/colorElemSelected"
         android:id="@+id/environment_tv"
         android:layout_below="@id/Causes_tv"
         android:layout_toRightOf="@id/healthcare_tv"
@@ -130,8 +124,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Peace"
-        android:textColor="@color/background_color"
-
+        android:textColor="@color/colorElemSelected"
         android:id="@+id/peace_tv"
         android:layout_below="@id/Causes_tv"
         android:layout_toRightOf="@id/environment_tv"
@@ -143,7 +136,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" + "
-        android:textColor="@color/background_color"
+        android:textColor="@color/colorElemSelected"
         android:id="@+id/more_tv"
         android:layout_below="@id/Causes_tv"
         android:layout_toRightOf="@id/peace_tv"

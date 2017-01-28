@@ -14,7 +14,6 @@
     tools:showIn="@layout/activity_investor">
 
 
-
     <ImageView
         android:layout_width="100dp"
         android:layout_height="161dp"
@@ -22,40 +21,35 @@
         android:layout_marginLeft="64dp"
         android:layout_marginTop="54dp"
         android:id="@+id/pic"
-
         android:background="@drawable/werise" />
+
     <ImageView
         android:layout_width="200dp"
         android:layout_height="150dp"
-        
         android:background="@drawable/cloud_light"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="32dp"
-        />
+        android:layout_marginRight="32dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This would not be possible without your help."
-        android:textColor="@color/white"
+        android:text="@string/investor_main_title"
+        android:textColor="@color/colorWhite"
         android:textSize="18dp"
         android:textStyle="bold"
         android:layout_below="@id/pic"
         android:id="@+id/title"
-        android:layout_marginTop="48dp"
-        />
+        android:layout_marginTop="48dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="We collaborate with many organizations and industry leaders to build sustainable social projects for the community. If you wish to be an Impact Investor, contact us and one of our team members will be glad to assist you. \n\nThank you!"
-        android:textColor="@color/white"
+        android:text="@string/investor_secondary_title"
+        android:textColor="@color/colorWhite"
         android:textSize="18dp"
-
         android:layout_below="@id/title"
-        android:layout_marginTop="16dp"
-        />
+        android:layout_marginTop="16dp" />
 
 
 </RelativeLayout>

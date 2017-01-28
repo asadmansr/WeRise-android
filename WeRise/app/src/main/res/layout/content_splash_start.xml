@@ -18,20 +18,18 @@
         android:background="@drawable/werise"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="104dp"
-        android:id="@+id/werise_logo"
-        />
+        android:id="@+id/werise_logo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="WeRise"
-        android:textColor="@color/white"
+        android:text="@string/WeRise_title"
+        android:textColor="@color/colorWhite"
         android:layout_below="@id/werise_logo"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginTop="64dp"
         android:textSize="36sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
 </RelativeLayout>

@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Project Name"
+        android:text="@string/project_name_title"
         android:textStyle="bold"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -22,14 +22,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/project_name_tv"
-        android:id="@+id/project_name_et"
-
-        />
+        android:id="@+id/project_name_et" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Project Description"
+        android:text="@string/project_desc_title"
         android:textStyle="bold"
         android:layout_below="@id/project_name_et"
         android:layout_marginTop="8dp"
@@ -52,7 +50,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Theme"
+        android:text="@string/theme_title"
         android:textStyle="bold"
         android:layout_below="@id/project_desc_et"
         android:layout_marginTop="8dp"
@@ -139,7 +137,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Invite"
+        android:text="@string/invite_title"
         android:textStyle="bold"
         android:layout_below="@id/education_text"
         android:layout_marginTop="16dp"
@@ -150,7 +148,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/Invite_tv"
         android:id="@+id/invite_et"
-        android:hint="Email address or @username"
+        android:hint="@string/invite_hint"
         />
 
 </RelativeLayout>

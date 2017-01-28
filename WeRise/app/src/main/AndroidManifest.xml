@@ -32,7 +32,9 @@
             android:name=".Investor"
             android:label="@string/title_activity_investor"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".EditProject"></activity>
+        <activity android:name=".EditProject"
+            android:label="@string/title_activity_edit_project"
+            android:theme="@style/AppTheme.NoActionBar" />
 
     </application>
 
