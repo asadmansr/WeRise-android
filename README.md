@@ -8,6 +8,8 @@ Developed at ILM Innovation Weekend 2017, WeRise connects you and other changema
 
 <img src="Screenshots/Main_Dashboard.png" height="600"/> 
 
+Additional screenshots available in the [Screenshots](Screenshots)
+
 ## Milestones
 
 - **WeRise 1.0.0**:
