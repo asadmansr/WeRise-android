@@ -94,7 +94,7 @@ public class CreateProject extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle presses on the action bar items
         switch (item.getItemId()) {
-            case R.id.next:
+            case R.id.save:
                 Intent intent = new Intent(CreateProject.this, Dashboard.class);
                 startActivity(intent);
                 return true;

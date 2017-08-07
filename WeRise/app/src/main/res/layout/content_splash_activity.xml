@@ -9,27 +9,28 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.asadmansoor.werise.SplashStart"
-    tools:showIn="@layout/activity_splash_start">
+    tools:context="com.asadmansoor.werise.SplashActivity"
+    tools:showIn="@layout/activity_splash_screen">
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="161dp"
-        android:background="@drawable/werise"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="104dp"
-        android:id="@+id/werise_logo" />
 
     <TextView
+        android:id="@+id/app_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/WeRise_title"
         android:textColor="@color/colorWhite"
-        android:layout_below="@id/werise_logo"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginTop="64dp"
         android:textSize="36sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="100dp"
+        android:layout_height="161dp"
+        android:background="@drawable/werise"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/app_title" />
 
 </RelativeLayout>

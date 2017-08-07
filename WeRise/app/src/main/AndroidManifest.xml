@@ -7,9 +7,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
         <activity
-            android:name=".SplashStart"
+            android:name=".SplashActivity"
             android:label="@string/title_activity_splash_start"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CreateAccount"
+            android:name=".RegisterAccountActivity"
             android:label="@string/title_activity_create_account"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Project" />
@@ -29,7 +29,7 @@
             android:label="@string/title_activity_dashboard"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Investor"
+            android:name=".ImpactInvestorActivity"
             android:label="@string/title_activity_investor"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".EditProject"
