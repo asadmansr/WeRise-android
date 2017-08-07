@@ -53,9 +53,9 @@ public class RegisterAccountActivity extends AppCompatActivity implements View.O
         generateCausesArrayList();
 
         causesAdapter = new CausesAdapter(causes_list,this);
-        LinearLayoutManager horizontalLayoutManagaer
+        LinearLayoutManager horizontalLayoutManager
                 = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
-        causes_rv.setLayoutManager(horizontalLayoutManagaer);
+        causes_rv.setLayoutManager(horizontalLayoutManager);
         causes_rv.setAdapter(causesAdapter);
 
     }
@@ -120,7 +120,7 @@ public class RegisterAccountActivity extends AppCompatActivity implements View.O
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.save:
-                Intent intent = new Intent(RegisterAccountActivity.this, Project.class);
+                Intent intent = new Intent(RegisterAccountActivity.this, ProjectsActivity.class);
                 startActivity(intent);
                 return true;
 
@@ -135,5 +135,4 @@ public class RegisterAccountActivity extends AppCompatActivity implements View.O
         onBackPressed();
         return true;
     }
-
 }

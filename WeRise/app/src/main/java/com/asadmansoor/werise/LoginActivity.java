@@ -39,7 +39,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 break;
 
             case R.id.already_member_tv:
-                intent = new Intent(LoginActivity.this, Dashboard.class);
+                intent = new Intent(LoginActivity.this, DashboardActivity.class);
                 startActivity(intent);
                 break;
 

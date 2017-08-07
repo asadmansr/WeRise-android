@@ -28,20 +28,22 @@
     <string name="causes_title">Causes</string>
     <string name="create_account_title">Create an Account</string>
 
-    <!--Select Project-->
+    <!--Select ProjectsActivity-->
     <string name="create_project_title">Create. Organize. Lead.</string>
     <string name="create_project_btn">CREATE PROJECT</string>
     <string name="join_project_title">Discover. Collaborate. Learn.</string>
     <string name="join_project_btn">JOIN PROJECT</string>
+    <string name="project_screen_title">Projects</string>
 
-    <!--Create Project-->
+    <!--Create ProjectsActivity-->
+    <string name="create_project_screen_title">Create Project</string>
     <string name="project_name_title">Project Name</string>
     <string name="project_desc_title">Project Description</string>
     <string name="theme_title">Theme</string>
     <string name="invite_title">Invite</string>
     <string name="invite_hint">Email address or @username</string>
     
-    <!--Dashboard-->
+    <!--DashboardActivity-->
     <string name="my_projects_title">My Projects</string>
     <string name="explore_projects_title">Explore Projects</string>
     <string name="trending_talent_title">Trending Talent</string>

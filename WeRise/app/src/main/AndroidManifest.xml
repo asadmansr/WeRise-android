@@ -22,10 +22,11 @@
             android:name=".RegisterAccountActivity"
             android:label="@string/title_activity_create_account"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Project" />
-        <activity android:name=".CreateProject" />
+        <activity android:name=".ProjectsActivity" />
+        <activity android:name=".CreateProjectActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
         <activity
-            android:name=".Dashboard"
+            android:name=".DashboardActivity"
             android:label="@string/title_activity_dashboard"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

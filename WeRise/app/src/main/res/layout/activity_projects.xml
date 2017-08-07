@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="com.asadmansoor.werise.ProjectsActivity">
+
+    <RelativeLayout
+        android:id="@+id/top_create_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/create_project_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_project_title"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="24dp" />
+
+        <ImageView
+            android:id="@+id/create_project_iv"
+            android:layout_width="80dp"
+            android:layout_height="68dp"
+            android:background="@drawable/create"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/create_project_tv" />
+
+        <Button
+            android:id="@+id/create_project_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_project_btn"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/create_project_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginLeft="64dp"
+            android:id="@+id/divider"
+            android:layout_alignParentBottom="true"
+            android:background="#CCCCCCCC"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_join_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/join_project_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_project_title"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="24dp" />
+
+        <ImageView
+            android:id="@+id/join_project_iv"
+            android:layout_width="80dp"
+            android:layout_height="68dp"
+            android:background="@drawable/view"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/join_project_tv" />
+
+        <Button
+            android:id="@+id/join_project_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_project_btn"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/join_project_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="12dp"
+    android:layout_marginEnd="12dp">
+
+    <ImageView
+        android:id="@+id/theme_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/peace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/theme_tv"
+        android:text="Peace"
+        android:layout_below="@id/theme_iv"
+        android:layout_alignLeft="@id/theme_iv"
+        android:layout_alignStart="@id/theme_iv"
+        android:layout_alignRight="@id/theme_iv"
+        android:layout_alignEnd="@id/theme_iv"
+        android:gravity="center"
+        android:layout_marginTop="8dp" />
+</RelativeLayout>
